@@ -78,9 +78,9 @@ header .mobile {
 /* Header Mobile */
 
 @media only screen and (max-width: 650px)
-    and (device-width : 375px)
-    and (device-height : 812px)
-    and (-webkit-device-pixel-ratio : 3) {
+  and (-min-device-width : 375px)
+  and (-max-device-width : 812px)
+  and (-webkit-device-pixel-ratio : 3) {
   header .desktop {
     display: none;
   }
@@ -187,7 +187,10 @@ header .mobile {
 
 /* Main Mobile */
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 650px)
+  and (-min-device-width : 375px)
+  and (-max-device-width : 812px)
+  and (-webkit-device-pixel-ratio : 3) {
   .container {
     flex-direction: column;
   }
@@ -326,7 +329,10 @@ header .mobile {
 
 /* Start Here Mobile */
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 650px)
+  and (-min-device-width : 375px)
+  and (-max-device-width : 812px)
+  and (-webkit-device-pixel-ratio : 3) {
   .button {
     width: 100%;
     margin-bottom: 32px;
@@ -360,7 +366,10 @@ header .mobile {
 
 /* Campus Mobile */
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 650px)
+  and (-min-device-width : 375px)
+  and (-max-device-width : 812px)
+  and (-webkit-device-pixel-ratio : 3) {
   #campus-desktop {
     display: none;
   }
@@ -427,7 +436,10 @@ header .mobile {
 
 /* Course Info Mobile */
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 650px)
+  and (-min-device-width : 375px)
+  and (-max-device-width : 812px)
+  and (-webkit-device-pixel-ratio : 3) {
   .course-container {
     flex-direction: column;
     justify-content: center;
@@ -486,7 +498,10 @@ header .mobile {
 
 /* Thesis Mobile */
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 650px)
+  and (-min-device-width : 375px)
+  and (-max-device-width : 812px)
+  and (-webkit-device-pixel-ratio : 3) {
   .thesis-container {
     flex-direction: column;
     align-items: center;
@@ -529,7 +544,10 @@ footer a {
 
 /* Footer Mobile */
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 650px)
+  and (-min-device-width : 375px)
+  and (-max-device-width : 812px)
+  and (-webkit-device-pixel-ratio : 3) {
   footer .terms-policy {
     display: none;
   }
